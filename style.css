@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #fcf8ed;
+    background-image: url('./images/stock/parchment.jpeg')
 }
 
 .main-logo {
@@ -10,6 +11,10 @@ html, body {
     border-bottom: solid 15px #AEB353;
     display: flex;
     justify-content: center;
+}
+
+.logo {
+    margin: 15px;
 }
 
 h1 {
@@ -47,15 +52,55 @@ main {
 
 p {
     margin: 10px 75px;
-    /* border: solid 2px green; */
     line-height: 1.4;
     font-size: 18px;
     text-align: justify;
     /* text-indent: 35px; */
 }
 
+/* .main-cabinet {
+    width: 750px;
+    height: auto;
+} */
+
+.cabinet {
+    /* border: solid purple 2px; */
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 0 30px;
+}
+
+.cabinet-title {
+    color: #AEB353;
+    text-align: center;
+}
+
+.cabinet-info {
+    background-color: #252B41;
+    padding: 15px;
+    color: white;
+}
+
+.cabinet-desc {
+    color: white;
+    margin: 15px;
+}
+
+.box-full {
+    height: 525px;
+    width: auto;
+    /* border: solid green 2px; */
+}
+
+.cover-art {
+    background-color: #252B41;
+    padding: 15px;
+    color: white;
+    margin: 0 30px 15px 30px;
+}
+
 .replacements {
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -65,27 +110,44 @@ p {
 .card {
     margin: 15px;
     background-color: #252B41;
-    max-height: 310px;
+    max-height: 345px;
     max-width: 325px;
-    min-height: 310px;
+    min-height: 345px;
     min-width: 325px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* border: solid green 2px; */
 }
 
 h3 {
     color: white;
+    /* border: solid pink 2px; */
 }
 
 .single-img {
     max-height: 250px;
-    max-width: auto;
+    max-width: 325px;
     min-height: 250px;
-    min-width: auto;
+    min-width: 325px;
     flex-shrink: 1;
+    align-self: center;
+    /* border: solid red 2px; */
+}
+
+.more-info {
+    font-size: 15px;
+    text-align: right;
+    color: #AEB353;
+    margin: 5px 10px 5px 10px;
+    visibility: visible;
+    /* border: solid blue 2px; */
 }
 
 .desc {
-    /* visibility: hidden; */
+    color: white;
+    /* border: solid lightblue 2px; */
+    margin: 15px;
 }
 
 #share-photos {
@@ -99,4 +161,28 @@ h3 {
     width: 100% !important;
     height: auto !important;
     margin: 2px
+}
+
+.music {
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.music-card {
+    /* border: solid blue 2px; */
+    margin: 15px;
+    /* background-color: white; */
+    background-color: #252B41;
+    max-height: 375px;
+    max-width: 225px;
+    min-height: 375px;
+    min-width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    /* border: solid #252B41 3px; */
 }
