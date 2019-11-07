@@ -59,6 +59,18 @@ p {
     /* text-indent: 35px; */
 }
 
+.family-images {
+    margin: 25px 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: solid red 2px; */
+}
+
+.fam-photo {
+    height: 225px;
+}
+
 .main-cabinet {
     display: block;
     margin: 15px auto;
