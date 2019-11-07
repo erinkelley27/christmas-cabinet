@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="./images/logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png" />
 </head>
+
 <body>
     <header>
         <div class="main-logo">
-            <!-- <h1>The Christmas Cabinet</h1> -->
-            <img class="logo" src="./images/logo.png" alt="the-christmas-cabinet" />        
+            <a href="./index.html"><img class="logo" src="./images/logo.png" alt="the-christmas-cabinet" /></a>
         </div>
         <nav>
             <ul>
@@ -28,12 +29,32 @@
         </nav>
     </header>
     <main>
-        <form action="https://formspree.io/erin.kelley@generalassemb.ly" method="POST">
-            <input type="text" placeholder="Name" name="name">
-            <input type="email" placeholder="Email" name="_replyto">
-            <input type="submit" value="Send">
-          </form>
+        <p class="intro">Contact us below for more information about The Christmas Cabinet. We'd love to answer your
+            questions about our products and hear YOUR story about how you use The Christmas Cabinet in the holiday
+            season!</p>
+        <div class="contact-form">
+            <form method="POST" action="https://formspree.io/erinkelley27@gmail.com">
+                <input class="input-field" type="text" name="name" placeholder="Name"></textarea>
+                <input class="input-field" type="email" name="email" placeholder="Email Address">
+                <input class="input-field message-field" type="text" name="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </main>
+    <footer>
+        <div class="footer">
+            <p>&copy; 2019 The Christmas Cabinet</p>
+            <div class="social">
+                <a class="email" href="www.facebook.com"><img class="social-logo" src="images/stock/facebook-logo.png"
+                        alt="facebook"></a>
+                <a class="email" href="www.instagram.com"><img class="social-logo" src="images/stock/instagram-logo.png"
+                        alt="instagram"></a>
+            </div>
+            <a class="email" href="mailto:info@theChristmasCabinet.com">info@theChristmasCabinet.com</a>
+            <!-- <img class="footer-image" src="./images/footer.png" alt="img" /> -->
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -8,7 +8,7 @@ html, body {
 
 .main-logo {
     background-color: #252B41;
-    border-bottom: solid 15px #AEB353;
+    border-bottom: solid 10px #AEB353;
     display: flex;
     justify-content: center;
 }
@@ -58,16 +58,19 @@ p {
     /* text-indent: 35px; */
 }
 
-/* .main-cabinet {
-    width: 750px;
-    height: auto;
-} */
+.main-cabinet {
+    display: block;
+    margin: 15px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 50%;
+}
 
 .cabinet {
     /* border: solid purple 2px; */
     display: flex;
     justify-content: center;
-    margin: 30px 30px 0 30px;
+    margin: 30px 30px 50px 30px;
 }
 
 .cabinet-title {
@@ -120,9 +123,21 @@ p {
     /* border: solid green 2px; */
 }
 
+.cards-on-click {
+    max-width: 680px;
+    min-width: 680px;
+    max-height: 1000px;
+    /* min-height: 650px; */
+}
+
 h3 {
     color: white;
     /* border: solid pink 2px; */
+}
+
+.img-div {
+    /* border: solid blueviolet 2px; */
+    background-color: #E7EBEE;
 }
 
 .single-img {
@@ -148,6 +163,77 @@ h3 {
     color: white;
     /* border: solid lightblue 2px; */
     margin: 15px;
+}
+
+.refl {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.warning {
+    margin: 5%;
+    color: #252B41;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* MODAL CSS */
+button {
+    background-color: #252B41;
+    border: none;
+    color: #AEB353;
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px 5px 10px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #AEB353;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #252B41;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.hashtag {
+    color: #AEB353;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 #share-photos {
@@ -185,4 +271,78 @@ h3 {
     align-items: center;
     font-size: 14px;
     /* border: solid #252B41 3px; */
+}
+
+.intro {
+    margin: 5%;
+    color: #252B41;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px 0 150px;
+    align-items: center;
+}
+
+.input-field {
+    height: 36px;
+    width: 60%;
+    margin: 15px;
+}
+
+input::-webkit-input-placeholder,
+input[type="text"],
+input[type="email"] {
+    font-size: 18px;
+    line-height: 3;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: text-top;
+}
+
+.message-field {
+    height: 150px;
+}
+
+footer {
+    margin: 50px 0 0 0;
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid #AEB353 5px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #252B41;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    /* border: solid blue 2px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-logo {
+    margin: 0 5px 5px 5px;
+    height: 25px;
+}
+
+/* i {
+    margin: 5px;
+} */
+
+.email {
+    text-decoration: none;
+    color: white;
 }
