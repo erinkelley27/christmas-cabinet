@@ -82,14 +82,15 @@ p {
 }
 
 .family-images {
-    margin: 25px 75px;
+    margin: 25px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .fam-photo {
-    height: 225px;
+    height: 215px;
 }
 
 .main-cabinet {
@@ -361,6 +362,12 @@ footer {
     color: white;
 }
 
+@media screen and (max-width: 1024px) {
+    .fam-photo {
+        height: 140px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .logo {
         border: solid pink;
@@ -373,5 +380,15 @@ footer {
         margin: 0 auto;
         float: none;
         width: 100%;
+    }
+
+    .family-images {
+        flex-wrap: wrap;
+    }
+
+    .fam-photo {
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
     }
 }
