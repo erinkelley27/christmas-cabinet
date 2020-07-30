@@ -1,9 +1,22 @@
-html, body {
+html {
     margin: 0;
+    border: solid pink;
     padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    border: solid blue;
+    padding: 0;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: #fcf8ed;
-    background-image: url('./images/stock/parchment.jpeg')
+    background-image: url('./images/stock/parchment.jpeg');
+}
+
+.header {
+    width: 100%;
 }
 
 .main-logo {
@@ -11,6 +24,7 @@ html, body {
     border-bottom: solid 10px #AEB353;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .logo {
@@ -21,7 +35,6 @@ html, body {
 h1 {
     margin: 50px 0;
     border: solid 2px lightblue;
-    color: white;
 }
 
 ul {
@@ -29,15 +42,15 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    /* border: solid 2px pink; */
+    width: 100%;
 }
 
 li a {
     text-decoration: none;
-    /* border: solid 2px blue; */
     color: #252B41;
     font-size: 24px;
     font-weight: bold;
+    list-style-type: none;
 }
 
 main {
@@ -56,7 +69,6 @@ p {
     line-height: 1.4;
     font-size: 18px;
     text-align: justify;
-    /* text-indent: 35px; */
 }
 
 .family-images {
@@ -64,7 +76,6 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border: solid red 2px; */
 }
 
 .fam-photo {
@@ -74,13 +85,10 @@ p {
 .main-cabinet {
     display: block;
     margin: 15px auto;
-    /* margin-left: auto;
-    margin-right: auto; */
     width: 50%;
 }
 
 .cabinet {
-    /* border: solid purple 2px; */
     display: flex;
     justify-content: center;
     margin: 30px 30px 50px 30px;
@@ -105,7 +113,6 @@ p {
 .box-full {
     height: 525px;
     width: auto;
-    /* border: solid green 2px; */
 }
 
 .cover-art {
@@ -116,7 +123,6 @@ p {
 }
 
 .replacements {
-    /* border: solid blue 2px; */
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -133,23 +139,19 @@ p {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    /* border: solid green 2px; */
 }
 
 .cards-on-click {
     max-width: 680px;
     min-width: 680px;
     max-height: 1000px;
-    /* min-height: 650px; */
 }
 
 h3 {
     color: white;
-    /* border: solid pink 2px; */
 }
 
 .img-div {
-    /* border: solid blueviolet 2px; */
     background-color: #E7EBEE;
 }
 
@@ -160,7 +162,6 @@ h3 {
     min-width: 325px;
     flex-shrink: 1;
     align-self: center;
-    /* border: solid red 2px; */
 }
 
 .more-info {
@@ -169,12 +170,10 @@ h3 {
     color: #AEB353;
     margin: 5px 10px 5px 10px;
     visibility: visible;
-    /* border: solid blue 2px; */
 }
 
 .desc {
     color: white;
-    /* border: solid lightblue 2px; */
     margin: 15px;
 }
 
@@ -265,15 +264,12 @@ button {
 .music {
     text-align: center;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .music-card {
-    /* border: solid blue 2px; */
     margin: 15px;
-    /* background-color: white; */
     background-color: #252B41;
     max-height: 375px;
     max-width: 225px;
@@ -283,7 +279,6 @@ button {
     flex-direction: column;
     align-items: center;
     font-size: 14px;
-    /* border: solid #252B41 3px; */
 }
 
 .intro {
@@ -339,7 +334,6 @@ footer {
 }
 
 .social {
-    /* border: solid blue 2px; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -350,10 +344,6 @@ footer {
     margin: 0 5px 5px 5px;
     height: 25px;
 }
-
-/* i {
-    margin: 5px;
-} */
 
 .email {
     text-decoration: none;
