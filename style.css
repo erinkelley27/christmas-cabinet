@@ -100,9 +100,12 @@ p {
 }
 
 .cabinet {
+    border: solid pink;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 30px 30px 50px 30px;
+    margin-bottom: 25px;
+    /* margin: 30px 30px 50px 30px; */
 }
 
 .cabinet-title {
@@ -111,19 +114,23 @@ p {
 }
 
 .cabinet-info {
+    border: solid red;
     background-color: #252B41;
-    padding: 15px;
+    /* padding: 15px; */
     color: white;
+    width: 100%;
 }
 
 .cabinet-desc {
     color: white;
-    margin: 15px;
+    /* margin: 15px; */
+    width: 95%;
+    margin: 0 auto;
 }
 
 .box-full {
-    height: 525px;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .cover-art {
@@ -179,24 +186,30 @@ h3 {
     font-size: 15px;
     text-align: right;
     color: #AEB353;
-    margin: 5px 10px 5px 10px;
+    margin: 5px auto;
     visibility: visible;
+    border: solid orange;
+    width: 90%;
 }
 
 .desc {
     color: white;
-    margin: 15px;
+    /* margin: 15px; */
+    width: 95%;
+    margin: 15px auto;
 }
 
 .refl {
     color: white;
     font-style: italic;
     font-weight: bold;
-    margin: 15px;
+    width: 95%;
+    margin: 15px auto;
 }
 
 .warning {
-    margin: 5%;
+    width: 95%;
+    margin: 0 auto;
     color: #252B41;
     font-size: 20px;
     font-weight: bold;
@@ -390,5 +403,11 @@ footer {
         margin: 10px 0;
         width: 100%;
         height: auto;
+    }
+
+    .cards-on-click {
+        max-width: 325px;
+        min-width: 325px;
+        max-height: 1200px;
     }
 }
