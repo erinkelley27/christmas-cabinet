@@ -361,6 +361,10 @@ footer {
     align-items: center;
 }
 
+.copyright {
+    text-align: center;
+}
+
 .social {
     border: solid yellow;
     width: 100%;
