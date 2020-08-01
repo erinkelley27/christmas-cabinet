@@ -58,19 +58,19 @@ main {
     width: 80%;
 }
 
-.home-image {
-    margin: 0 0 0 75px;
-    padding: 0 20px 10px 0;
-    float: left;
-    width: 475px;
-}
-
 p {
     margin: 10px 0;
     width: 100%;
     line-height: 1.4;
     font-size: 18px;
     text-align: justify;
+}
+
+.home-image {
+    margin: 0;
+    padding: 0 20px 10px 0;
+    float: left;
+    width: 475px;
 }
 
 .family-images {
