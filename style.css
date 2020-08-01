@@ -112,9 +112,8 @@ p {
 
 .cabinet-desc {
     color: white;
-    /* margin: 15px; */
+    margin: 15px auto;
     width: 95%;
-    margin: 0 auto;
 }
 
 .box-full {
