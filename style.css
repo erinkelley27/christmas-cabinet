@@ -316,15 +316,17 @@ button {
 }
 
 form {
+    width: 75%;
+    margin: 0 auto;
+    border: solid red;
     display: flex;
     flex-direction: column;
-    margin: 0 150px 0 150px;
     align-items: center;
 }
 
 .input-field {
     height: 36px;
-    width: 60%;
+    width: 100%;
     margin: 15px;
 }
 
@@ -411,5 +413,11 @@ footer {
         max-width: 325px;
         min-width: 325px;
         max-height: 1200px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    form {
+        width: 95%;
     }
 }
