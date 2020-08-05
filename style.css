@@ -396,7 +396,8 @@ footer {
 
     .fam-photo {
         margin: 10px 0;
-        height: 120px;
+        width: 300px;
+        height: auto;
     }
 
     .cards-on-click {
